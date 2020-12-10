@@ -7,15 +7,21 @@
     <meta http-equiv="Content-Language" content="en">
 
     <meta name="author" content="Ryan Wong">
-    <meta name="description" content="Ryan Wong&#39;s personal website">
+    <meta name="description" content="Updeated on 12/10/2020
+d-gen is a project that I developed as part of the 2020 CDAC Summer Lab under the mentorship of Professor Raul Castro-Ferenandez. The purpose of d-gen is to synthetically generate relational databases that adhere to a user-defined schema for the purposes of query testing and optimization.
+Relational databases are databases which contain tables filled with columns and rows of information, which may or may not hold some sort of &ldquo;relation&rdquo; to each other.">
     <meta name="keywords" content="">
 
     <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="d-gen"/>
-<meta name="twitter:description" content=""/>
+<meta name="twitter:description" content="Updeated on 12/10/2020
+d-gen is a project that I developed as part of the 2020 CDAC Summer Lab under the mentorship of Professor Raul Castro-Ferenandez. The purpose of d-gen is to synthetically generate relational databases that adhere to a user-defined schema for the purposes of query testing and optimization.
+Relational databases are databases which contain tables filled with columns and rows of information, which may or may not hold some sort of &ldquo;relation&rdquo; to each other."/>
 
     <meta property="og:title" content="d-gen" />
-<meta property="og:description" content="" />
+<meta property="og:description" content="Updeated on 12/10/2020
+d-gen is a project that I developed as part of the 2020 CDAC Summer Lab under the mentorship of Professor Raul Castro-Ferenandez. The purpose of d-gen is to synthetically generate relational databases that adhere to a user-defined schema for the purposes of query testing and optimization.
+Relational databases are databases which contain tables filled with columns and rows of information, which may or may not hold some sort of &ldquo;relation&rdquo; to each other." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="http://rewong03.github.io/projects/d-gen/" />
 <meta property="article:published_time" content="2020-06-01T00:00:00+00:00" />
@@ -123,7 +129,51 @@
       <h1>d-gen</h1>
     </header>
 
-    
+    <p><em>Updeated on 12/10/2020</em></p>
+<p><a href="https://github.com/raulcf/d-gen">d-gen</a> is a project that I developed as part of the <a href="https://cdac.uchicago.edu/engage/summerlab/#project-profiles">2020 CDAC Summer Lab</a>
+under the mentorship of <a href="https://raulcastrofernandez.com">Professor Raul Castro-Ferenandez</a>. The purpose of d-gen is to synthetically
+generate relational databases that adhere to a user-defined schema for the purposes of query testing and optimization.</p>
+<p><a href="https://en.wikipedia.org/wiki/Relational_database">Relational databases</a> are databases which contain tables filled with columns and rows
+of information, which may or may not hold some sort of &ldquo;relation&rdquo; to each other. For example, in a school&rsquo;s database, you might have a
+table of student information, containing first name, last name, student ID, etc., and a table containing students enrolled in a specific
+class. Since all students enrolled in a class at a school <strong>must also</strong> be students of that school, there exists a <em>relationship</em> between
+the student information table and class enrollment table, where information in the class enrollment table <strong>must also</strong> exist in the student
+information table. This is an example of one way that data can be &ldquo;related&rdquo; in a database, but there exists many other ways.</p>
+<figure>
+    <img src="/images/projects/d-gen/example_database.jp2"
+         alt="Example relational database schema" width="800"/> <figcaption>
+            <p>Example relational database schema</p>
+        </figcaption>
+</figure>
+
+<p>Relational databases are very commonly used, so there is a need to optimize <a href="https://www.hostinger.com/tutorials/what-is-a-query">queries</a>.
+To ensure that queries are properly optimized, they should be run on data of various sizes and data containing various distributions.
+What makes optimization difficult to do is that queries are written under the premise that the database has underlying relationships and
+datatypes that the user is aware of. For example, a query written to check whether a user&rsquo;s age is &gt; 18 can only be run on columns of numbers.
+As a result, users must test/optimize queries with databases that conform to the query. While our example is rather
+simplistic, it can be incredibly difficult to procure databases that conform with complex queries that use multiple tables, columns, rows,
+etc. Additionally, users looking to optimize their queries will have additional requirements regarding the size/distribution of data.</p>
+<figure>
+    <img src="/images/projects/d-gen/example_query.jp2"
+         alt="Example query showing required tables/columns" width="800"/> <figcaption>
+            <p>Example query showing required tables/columns</p>
+        </figcaption>
+</figure>
+
+<p>Rather than having database users scrounge around trying to find databases, d-gen offers a method of generating random data which can
+adhere to their niche constraints. To do so, users provide d-gen a <a href="https://github.com/raulcf/d-gen/blob/master/example_specifications/specification_outline.md">YAML config</a>
+which abstractly described the database&rsquo;s constraints. There exists multiple levels of abstraction, with users being able to define
+everything from the datatypes and properties of individual columns to defining the relationships between multiple tables. For ease of use,
+users can also define multiple columns, tables, and relationships all at once.</p>
+<p>d-gen then takes this abstract schema and converts it to a more &ldquo;defined&rdquo; schema, removing all abstraction and creating a more descriptive
+and conncrete schema. This, coupled with the use of random seeds, allows generated databases to be replicable by d-gen. d-gen then uses
+this defined schema to generate the database, which is then finally serialized to a user-usable format.</p>
+<p>Although d-gen is (mostly) working and functional, there are still many improvements that can be made. Currently, there are only basic
+column/table relationships available (PK-FK, Jacaard Similarity, Functional Dependency), but there are many more that could be implemented
+in both the YAML config and in the generation. Another big change that could be made is increasing the performance of data generation and
+serialization. I most likely won&rsquo;t pick up d-gen again, but feel free to check it out on GitHub <a href="https://github.con/raulcf/d-gen">here</a>, or
+watch <a href="https://www.youtube.com/watch?v=qPmuSZtiiiQ&amp;feature=emb_imp_woyt">this video</a> I made about it!</p>
+
   </article>
 </section>
 

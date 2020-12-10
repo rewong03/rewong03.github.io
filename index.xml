@@ -13,7 +13,9 @@
       <pubDate>Mon, 01 Jun 2020 00:00:00 +0000</pubDate>
       
       <guid>http://rewong03.github.io/projects/d-gen/</guid>
-      <description></description>
+      <description>Updeated on 12/10/2020
+d-gen is a project that I developed as part of the 2020 CDAC Summer Lab under the mentorship of Professor Raul Castro-Ferenandez. The purpose of d-gen is to synthetically generate relational databases that adhere to a user-defined schema for the purposes of query testing and optimization.
+Relational databases are databases which contain tables filled with columns and rows of information, which may or may not hold some sort of &amp;ldquo;relation&amp;rdquo; to each other.</description>
     </item>
     
     <item>
