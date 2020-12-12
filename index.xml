@@ -13,7 +13,7 @@
       <pubDate>Mon, 01 Jun 2020 00:00:00 +0000</pubDate>
       
       <guid>http://rewong03.github.io/projects/d-gen/</guid>
-      <description>Updated on 12/10/2020
+      <description>Updated on December 10, 2020
 d-gen is a project that I developed as part of the 2020 CDAC Summer Lab under the mentorship of Professor Raul Castro-Ferenandez. The purpose of d-gen is to synthetically generate relational databases that adhere to a user-defined schema for the purposes of query testing and optimization.
 Relational databases are databases which contain tables filled with columns and rows of information, which may or may not hold some sort of &amp;ldquo;relation&amp;rdquo; to each other.</description>
     </item>
@@ -24,17 +24,20 @@ Relational databases are databases which contain tables filled with columns and 
       <pubDate>Sun, 01 Dec 2019 00:00:00 +0000</pubDate>
       
       <guid>http://rewong03.github.io/projects/xtract_container_service/</guid>
-      <description>The Xtract Container Service (XCS) is a service I developed as a research assistant at Globus Labs under the mentorship of Tyler Skluzacek. XCS is a service for building and storing containers (the computing kind, not the storage kind), and is part of the greater XtractHub project.
+      <description>Updated on December 11, 2020
+The Xtract Container Service (XCS) is a service I developed as a research assistant at Globus Labs under the mentorship of Tyler Skluzacek. XCS is a service for building and storing containers (the computing kind, not the storage kind), and is part of the greater XtractHub project.
 Xtract&amp;rsquo;s main feature is its ability to process heterogeneous data in a scalable manner. To do so, it uses FuncX, which utilizes containers, allowing for the large-scale execution of various functions on the same computing device.</description>
     </item>
     
     <item>
-      <title>XtractHub Classifier</title>
-      <link>http://rewong03.github.io/projects/xtracthub_classifier/</link>
+      <title>Xtract Classifier</title>
+      <link>http://rewong03.github.io/projects/xtract_classifier/</link>
       <pubDate>Tue, 01 Oct 2019 00:00:00 +0000</pubDate>
       
-      <guid>http://rewong03.github.io/projects/xtracthub_classifier/</guid>
-      <description></description>
+      <guid>http://rewong03.github.io/projects/xtract_classifier/</guid>
+      <description>Updated on December 11, 2020
+The Xtract Classifier is a machine learning tool that I developed as a research at Globus Labs under the mentorship of Tyler Skluzacek. The Xtract Classifier is an experimental tool designed to categorize files, and is part of the greater XtractHub project.
+One of Xtract&amp;rsquo;s main features is its ability to process heterogeneous data. It does so by using &amp;ldquo;extractors&amp;rdquo;, which are programs hosted inside containers, which can be used to extract metadata from specific types of files.</description>
     </item>
     
     <item>
