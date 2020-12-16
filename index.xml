@@ -46,7 +46,9 @@ One of Xtract&amp;rsquo;s main features is its ability to process heterogeneous 
       <pubDate>Sat, 01 Jun 2019 00:00:00 +0000</pubDate>
       
       <guid>http://rewong03.github.io/projects/xtracthub/</guid>
-      <description></description>
+      <description>Updated on December 16, 2020
+XtractHub is a project that I contributed to as part of the 2019 CDAC Summer Lab under the mentorship of Tyler Skluzacek. Xtract is a service that extracts metadata from heterogeneous scientific file formats, and is a project from Globus Labs.
+As advancements in scientific computing have been made, the volume and variety of data produced by experiments have increased significantly. Most of this scientific data is stored in public/shared repositories such as Petrel.</description>
     </item>
     
     <item>
