@@ -29,6 +29,18 @@ Relational databases are databases which contain tables filled with columns and 
     </item>
     
     <item>
+      <title>d-gen</title>
+      <link>http://rewong03.github.io/projects/test/</link>
+      <pubDate>Mon, 01 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://rewong03.github.io/projects/test/</guid>
+      <description>[About]:
+d-gen is a project that I developed as part of the 2020 CDAC Summer Lab under the mentorship of Professor Raul Castro-Ferenandez. The purpose of d-gen is to synthetically generate relational databases that adhere to a user-defined schema for the purposes of query testing and optimization.[END]
+[Problem]:
+Relational databases are databases which contain tables filled with columns and rows of information, which may or may not hold some sort of &amp;ldquo;relation&amp;rdquo; to each other.</description>
+    </item>
+    
+    <item>
       <title>Xtract Container Service</title>
       <link>http://rewong03.github.io/projects/xtract_container_service/</link>
       <pubDate>Sun, 01 Dec 2019 00:00:00 +0000</pubDate>
