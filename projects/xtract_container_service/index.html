@@ -7,22 +7,28 @@
     <meta http-equiv="Content-Language" content="en">
 
     <meta name="author" content="Ryan Wong">
-    <meta name="description" content="The Xtract Container Service (XCS) is a service I developed as a research assistant at Globus Labs under the mentorship of Tyler Skluzacek. XCS is a service for building and storing containers (the computing kind, not the storage kind), and is part of the greater XtractHub project.
+    <meta name="description" content="[About]:
+The Xtract Container Service (XCS) is a service I developed as a research assistant at Globus Labs under the mentorship of Tyler Skluzacek. XCS is a service for building and storing containers (the computing kind, not the storage kind), and is part of the greater XtractHub project.[END]
+[Background]:
 Xtract&rsquo;s main feature is its ability to process heterogeneous data in a scalable manner. To do so, it uses FuncX, which utilizes containers, allowing for the large-scale execution of various functions on the same computing device.">
     <meta name="keywords" content="">
 
     <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Xtract Container Service"/>
-<meta name="twitter:description" content="The Xtract Container Service (XCS) is a service I developed as a research assistant at Globus Labs under the mentorship of Tyler Skluzacek. XCS is a service for building and storing containers (the computing kind, not the storage kind), and is part of the greater XtractHub project.
+<meta name="twitter:description" content="[About]:
+The Xtract Container Service (XCS) is a service I developed as a research assistant at Globus Labs under the mentorship of Tyler Skluzacek. XCS is a service for building and storing containers (the computing kind, not the storage kind), and is part of the greater XtractHub project.[END]
+[Background]:
 Xtract&rsquo;s main feature is its ability to process heterogeneous data in a scalable manner. To do so, it uses FuncX, which utilizes containers, allowing for the large-scale execution of various functions on the same computing device."/>
 
     <meta property="og:title" content="Xtract Container Service" />
-<meta property="og:description" content="The Xtract Container Service (XCS) is a service I developed as a research assistant at Globus Labs under the mentorship of Tyler Skluzacek. XCS is a service for building and storing containers (the computing kind, not the storage kind), and is part of the greater XtractHub project.
+<meta property="og:description" content="[About]:
+The Xtract Container Service (XCS) is a service I developed as a research assistant at Globus Labs under the mentorship of Tyler Skluzacek. XCS is a service for building and storing containers (the computing kind, not the storage kind), and is part of the greater XtractHub project.[END]
+[Background]:
 Xtract&rsquo;s main feature is its ability to process heterogeneous data in a scalable manner. To do so, it uses FuncX, which utilizes containers, allowing for the large-scale execution of various functions on the same computing device." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="http://rewong03.github.io/projects/xtract_container_service/" />
 <meta property="article:published_time" content="2019-12-01T00:00:00+00:00" />
-<meta property="article:modified_time" content="2020-12-21T17:50:42-06:00" />
+<meta property="article:modified_time" content="2021-01-11T10:48:16-06:00" />
 
 
     <title>
@@ -122,38 +128,84 @@ Xtract&rsquo;s main feature is its ability to process heterogeneous data in a sc
       <div class="content">
         
   
-  <section class="container page">
-    <article>  
-      <header>
-        <h1>Xtract Container Service</h1>
-      </header>
-      <i> Updated on December 21, 2020 </i>
-      <p>The <a href="https://github.com/xtracthub/xtract-container-service">Xtract Container Service (XCS)</a> is
+  <section class="container page" style="display: flex; flex-direction: column;">
+    <section class="project-title-section">
+  <div>
+    <div class="project-title">
+      <h1>Xtract Container Service</h1>
+    </div>
+    
+      <div class="project-description">
+        <p>Building and storing containers using AWS and Python Flask</p>
+      </div>
+    
+    
+      <div class="project-info-row">
+        
+          <div class="project-tech">
+            <h6>TECH</h6>
+            <p>Python, Flask, AWS, Docker, Singularity</p>
+          </div>
+        
+        
+          <div class="project-team">
+            <h6>TEAM</h6>
+            <p>Ryan Wong, Globus Labs</p>
+          </div>
+        
+        
+          <div class="project-time">
+            <h6>TIME</h6>
+            <p>Spring 2020 (17 weeks)</p>
+          </div>
+        
+      </div>
+    
+  </div>  
+</section>
+<section>
+  <svg class="arrows">
+    <path class="a1" d="M0 0 L60 32 L120 0"></path>
+    <path class="a2" d="M0 20 L60 52 L120 20"></path>
+    <path class="a3" d="M0 40 L60 72 L120 40"></path>
+  </svg>
+</section>
+
+  
+  
+  
+  <section>
+    <h3>About</h3>
+    <p>
+The <a href="https://github.com/xtracthub/xtract-container-service">Xtract Container Service (XCS)</a> is
 a service I developed as a research assistant at <a href="https://labs.globus.org">Globus Labs</a> under
 the mentorship of <a href="https://github.com/tskluzac">Tyler Skluzacek</a>. XCS is a service for building
 and storing containers (the <a href="https://en.wikipedia.org/wiki/OS-level_virtualization">computing kind</a>,
 not the <a href="https://en.wikipedia.org/wiki/Container">storage kind</a>), and is part of the greater
 <a href="/projects/xtracthub">XtractHub</a> project.</p>
-<p>Xtract&rsquo;s main feature is its ability to process heterogeneous data in a scalable manner. To do
+  </section>
+
+  
+  
+  
+  <section>
+    <h3>Background</h3>
+    <p>
+Xtract&rsquo;s main feature is its ability to process heterogeneous data in a scalable manner. To do
 so, it uses <a href="https://funcx.org">FuncX</a>, which utilizes containers, allowing for the large-scale
 execution of various functions on the same computing device. Before Xtract and FuncX can run
 containers on data, those containers must be built and stored, which is CPU and IO intensive.
 Due to the number of containers to be used in Xtract, XCS was created to reliably build and
 store containers for later use in Xtract.</p>
-<p>To utilize XCS, a user first submits a <a href="https://www.docker.com">Docker</a> or <a href="https://sylabs.io/docs/">Singularity</a>
-configuration file, describing the parameters of the container to be built. XCS then stores
-this configuration in <a href="https://aws.amazon.com/s3/">AWS S3</a> for later reference and creates
-entries within an <a href="https://aws.amazon.com/rds/">AWS RDS Postgres</a> database containing metadata
-on the user and configuration.</p>
-<p>Then, XCS begins the container building process. XCS places the job within an <a href="https://aws.amazon.com/sqs/">AWS SQS Queue</a>,
-where it is later pulled down and processed in parallel along with other containers. As the
-container is being built, a respective Postgres entry is updated, allowing users to query
-their build status. Once the build it complete, it is then pushed to AWS S3 or <a href="https://aws.amazon.com/ecr/">AWS ECR</a>
-for long-term storage. Users can then pull down their containers through XCS. All users are
-verified using <a href="https://docs.globus.org/api/auth/specification/">Globus Auth</a>, an OAuth-2
-authentication method, to ensure that containers can only be accessed by users who uploaded
-the respective configuration file.</p>
-<p>Currently, I am not working on XCS, but I fully intend to resume its development in the near
+  </section>
+
+  
+  
+  
+  <section>
+    <h3>Related/Future Work</h3>
+    <p>
+Currently, I am not working on XCS, but I fully intend to resume its development in the near
 future. One large area of development that needs to be completed is deploying XCS using
 <a href="https://aws.amazon.com/eb/">AWS EB</a>. I previously attempted to do so but found difficulties
 regarding installing all of the necessary tools and restructuring XCS to fit the EB format.
@@ -161,8 +213,9 @@ Another area I would like to develop is the extensibility of XCS. I would like t
 a more object-oriented design, allowing for the addition of new container formats. Since
 containers are so widely used, this could allow XCS to be utilized in the building/storing of
 containers for other projects.</p>
+  </section>
 
-    </article>
+
   </section>
 
 
@@ -174,7 +227,7 @@ containers for other projects.</p>
   <footer class="footer">
     <section class="container">
       
-        <p><i>Updated on January 8, 2021</i></p>
+        <p><i>Updated on January 11, 2021</i></p>
       
       
         ©

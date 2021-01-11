@@ -7,22 +7,28 @@
     <meta http-equiv="Content-Language" content="en">
 
     <meta name="author" content="Ryan Wong">
-    <meta name="description" content="The Xtract Classifier is a machine learning tool that I developed as a research at Globus Labs under the mentorship of Tyler Skluzacek. The Xtract Classifier is an experimental tool designed to categorize files, and is part of the greater XtractHub project.
+    <meta name="description" content="[About]:
+The Xtract Classifier is a machine learning tool that I developed as a research at Globus Labs under the mentorship of Tyler Skluzacek. The Xtract Classifier is an experimental tool designed to categorize files, and is part of the greater XtractHub project.[END]
+[Problem]:
 One of Xtract&rsquo;s main features is its ability to process heterogeneous data. It does so by using &ldquo;extractors&rdquo;, which are programs hosted inside containers, which can be used to extract metadata from specific types of files.">
     <meta name="keywords" content="">
 
     <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Xtract Classifier"/>
-<meta name="twitter:description" content="The Xtract Classifier is a machine learning tool that I developed as a research at Globus Labs under the mentorship of Tyler Skluzacek. The Xtract Classifier is an experimental tool designed to categorize files, and is part of the greater XtractHub project.
+<meta name="twitter:description" content="[About]:
+The Xtract Classifier is a machine learning tool that I developed as a research at Globus Labs under the mentorship of Tyler Skluzacek. The Xtract Classifier is an experimental tool designed to categorize files, and is part of the greater XtractHub project.[END]
+[Problem]:
 One of Xtract&rsquo;s main features is its ability to process heterogeneous data. It does so by using &ldquo;extractors&rdquo;, which are programs hosted inside containers, which can be used to extract metadata from specific types of files."/>
 
     <meta property="og:title" content="Xtract Classifier" />
-<meta property="og:description" content="The Xtract Classifier is a machine learning tool that I developed as a research at Globus Labs under the mentorship of Tyler Skluzacek. The Xtract Classifier is an experimental tool designed to categorize files, and is part of the greater XtractHub project.
+<meta property="og:description" content="[About]:
+The Xtract Classifier is a machine learning tool that I developed as a research at Globus Labs under the mentorship of Tyler Skluzacek. The Xtract Classifier is an experimental tool designed to categorize files, and is part of the greater XtractHub project.[END]
+[Problem]:
 One of Xtract&rsquo;s main features is its ability to process heterogeneous data. It does so by using &ldquo;extractors&rdquo;, which are programs hosted inside containers, which can be used to extract metadata from specific types of files." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="http://rewong03.github.io/projects/xtract_classifier/" />
 <meta property="article:published_time" content="2019-10-01T00:00:00+00:00" />
-<meta property="article:modified_time" content="2020-12-21T17:50:42-06:00" />
+<meta property="article:modified_time" content="2021-01-11T10:48:16-06:00" />
 
 
     <title>
@@ -122,18 +128,69 @@ One of Xtract&rsquo;s main features is its ability to process heterogeneous data
       <div class="content">
         
   
-  <section class="container page">
-    <article>  
-      <header>
-        <h1>Xtract Classifier</h1>
-      </header>
-      <i> Updated on December 21, 2020 </i>
-      <p>The <a href="https://github.com/rewong03/xtract-classifier">Xtract Classifier</a> is a
+  <section class="container page" style="display: flex; flex-direction: column;">
+    <section class="project-title-section">
+  <div>
+    <div class="project-title">
+      <h1>Xtract Classifier</h1>
+    </div>
+    
+      <div class="project-description">
+        <p>Using machine learning to classify scientific files</p>
+      </div>
+    
+    
+      <div class="project-info-row">
+        
+          <div class="project-tech">
+            <h6>TECH</h6>
+            <p>Python, Keras, Sci-kit Learn</p>
+          </div>
+        
+        
+          <div class="project-team">
+            <h6>TEAM</h6>
+            <p>Ryan Wong, Globus Labs, Argonne National Lab.</p>
+          </div>
+        
+        
+          <div class="project-time">
+            <h6>TIME</h6>
+            <p>Fall-Winter 2020 (10 weeks)</p>
+          </div>
+        
+      </div>
+    
+  </div>  
+</section>
+<section>
+  <svg class="arrows">
+    <path class="a1" d="M0 0 L60 32 L120 0"></path>
+    <path class="a2" d="M0 20 L60 52 L120 20"></path>
+    <path class="a3" d="M0 40 L60 72 L120 40"></path>
+  </svg>
+</section>
+
+  
+  
+  
+  <section>
+    <h3>About</h3>
+    <p>
+The <a href="https://github.com/rewong03/xtract-classifier">Xtract Classifier</a> is a
 machine learning tool that I developed as a research at <a href="https://labs.globus.org">Globus Labs</a>
 under the mentorship of <a href="https://github.con/tskluzac">Tyler Skluzacek</a>. The
 Xtract Classifier is an experimental tool designed to categorize files, and
 is part of the greater <a href="/projects/xtracthub">XtractHub</a> project.</p>
-<p>One of Xtract&rsquo;s main features is its ability to process heterogeneous data.
+  </section>
+
+  
+  
+  
+  <section>
+    <h3>Problem</h3>
+    <p>
+One of Xtract&rsquo;s main features is its ability to process heterogeneous data.
 It does so by using &ldquo;extractors&rdquo;, which are programs hosted inside containers,
 which can be used to extract metadata from specific types of files. Some
 examples of extractors are <a href="https://github.com/xtracthub/xtract-tabular">xtract-tabular</a>
@@ -142,7 +199,15 @@ examples of extractors are <a href="https://github.com/xtracthub/xtract-tabular"
 (which processes materials science data). Not every extractor can extract
 metadata from each file, so it is costly to run every extractor on every
 file.</p>
-<p>In order to reduce the penalty of running incompatible extractors on files,
+  </section>
+
+  
+  
+  
+  <section>
+    <h3>Solution</h3>
+    <p>
+In order to reduce the penalty of running incompatible extractors on files,
 Xtract utilizes machine learning to predict which extractors can be run on
 which files. Currently, Xtract uses an <a href="https://github.com/xtracthub/xtract-sampler/blob/master/train_model.py#L47">incredibly simplistic</a>
 random forest model for classification, taking the first 500 bytes of a file
@@ -156,14 +221,24 @@ learning to increase the accuracy of future models.</p>
 as parameters. Xtract Classifier then uses a convolutional
 neural network model for prediction. Multiple CNN models were developed
 for general scientific files and materials science files.</p>
-<p>While my work on the Xtract Classifier was a good start, it still pales
+  </section>
+
+  
+  
+  
+  <section>
+    <h3>Related/Future Work</h3>
+    <p>
+While my work on the Xtract Classifier was a good start, it still pales
 in comparison to the original random forest model. In the future, some
 retrainable model will most likely need to be explored given Xtract&rsquo;s goal
 of processing heterogeneous data. However, I won&rsquo;t be touching any complex
 machine learning until I get a few linear algebra, stats, and ML classes
-under my belt. In the mean time, feel free to check it out <a href="https://github.com/rewong03/xtract-classifier">here</a>.</p>
+under my belt. In the mean time, feel free to check it out <a href="https://github.com/rewong03/xtract-classifier">here</a>.
+</p>
+  </section>
 
-    </article>
+
   </section>
 
 
@@ -175,7 +250,7 @@ under my belt. In the mean time, feel free to check it out <a href="https://gith
   <footer class="footer">
     <section class="container">
       
-        <p><i>Updated on January 8, 2021</i></p>
+        <p><i>Updated on January 11, 2021</i></p>
       
       
         ©
