@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
-Sitemap: https://google.com/sitemap-index.xml
-Host: https://google.com
+Sitemap: https://www.rewong03.github.io/sitemap-index.xml
+Host: https://www.rewong03.github.io
