@@ -3,11 +3,10 @@ const config = require('./src/config');
 module.exports = {
   siteMetadata: {
     title: 'Ryan Wong',
-    description:
-      'Brittany Chiang is a software engineer who specializes in building (and occasionally designing) exceptional digital experiences.',
-    siteUrl: 'https://google.com', // No trailing slash allowed!
+    description: 'Just a CS student :)',
+    siteUrl: 'https://www.rewong03.github.io', // No trailing slash allowed!
     image: '/og.png', // Path to your image you placed in the 'static' folder
-    twitterUsername: '@bchiang7',
+    twitterUsername: '',
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -147,12 +146,6 @@ module.exports = {
             },
           },
         ],
-      },
-    },
-    {
-      resolve: `gatsby-plugin-google-analytics`,
-      options: {
-        trackingId: 'UA-45666519-2',
       },
     },
   ],
