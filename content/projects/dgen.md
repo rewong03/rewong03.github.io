@@ -11,4 +11,4 @@ tech:
 showInProjects: True
 ---
 
-Generating user-defined random relational databases for query testing/benchmarking
+Generating user-defined random relational databases for query testing/benchmarking.

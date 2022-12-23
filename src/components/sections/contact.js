@@ -16,7 +16,7 @@ const StyledContactSection = styled.section`
   .overline {
     display: block;
     margin-bottom: 20px;
-    color: var(--green);
+    color: var(--purple);
     font-family: var(--font-mono);
     font-size: var(--fz-md);
     font-weight: 400;
@@ -61,8 +61,8 @@ const Contact = () => {
 
       <p>
         I'm currently not looking for any new opportunities, but will be looking for Fall
-        2023/Winter 2024/ Spring 2024 internships in the future. Feel free to ask me anything or
-        just say hi!
+        2023/Winter 2024/Spring 2024 internships in the future. Feel free to ask me anything or just
+        say hi!
       </p>
 
       <a className="email-link" href={`mailto:${email}`}>

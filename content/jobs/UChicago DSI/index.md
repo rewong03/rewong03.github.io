@@ -4,7 +4,7 @@ title: 'Research Assistant'
 company: 'UChicago DSI'
 location: 'Chicago, IL'
 range: 'June - September 2019'
-url: 'https://labs.globus.org'
+url: 'https://datascience.uchicago.edu/'
 ---
 
 - Designed and prototyped Xtract Container Service (XCS), a RESTful service capable of concurrently building/storing Docker containers for FaaS-based platforms
